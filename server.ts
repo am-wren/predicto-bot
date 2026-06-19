@@ -14,9 +14,9 @@ import {
   resolvePredictionMatch,
   getUser,
   isUsingMongoDB
-} from "./src/database";
-import { startDiscordBot } from "./src/bot/client";
-import { dynamicBotName } from "./src/bot/embeds";
+} from "./src/database.ts";
+import { startDiscordBot } from "./src/bot/client.ts";
+import { dynamicBotName } from "./src/bot/embeds.ts";
 
 // Initialize environment variables
 dotenv.config();
